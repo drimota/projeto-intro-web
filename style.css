@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:#eab2bc;
+    display: flex;;
+    margin:auto;
+    align-items: center;
+  }
+  
+  h1 {
+    top: 20cm;
+    color: #181232;
+    font-size: 3rem;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 23px;
+  }
+  
+  img {
+    float: left;
+    height: 160px;
+    width: 160px; 
+    border-radius: 5%;
+  }
+  
+  body {
+    background-image: linear-gradient( #FFD4DB, #D3B5E5, #BBE7FE);
+    min-height: 100vh;
+  }
+  
+  .objeto {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  
+  .card {
+      display: flex;
+      align-items: center;
+      border-radius: 5%;
+      background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(174, 124, 212));
+      margin: 35px;
+      width: 500px;
+      flex-direction: column, center;
+  }
+  
+  div {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  input {
+    height: 25px;
+    width: 100px;
+    left: 97px;
+    top: -367px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    font-family: Inter;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:active {
+    color: white;
+    background-color: black;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  footer {
+    color: #181232;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    background-color:#8dc3e0;
+    color: white;
+    text-align: center;
+    height: 5vh;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight:700;
+    color: black;
+  }
+  
+  
+  
+  @media screen and (max-device-width : 800px) {
+    .objeto{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 10px;
+    min-height: 85vh;
+  }
+  
+  footer {
+    display: grid;
+    min-width: 30vw;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 10vw;
+    margin: 10%;
+    min-width: 400px;
+  }
+      }
+      
+  @media screen and (max-device-width : 360px){
+        .objeto{
+          display: grid;
+          grid-template-rows: 1fr;
+          grid-template-columns: 1fr;
+          gap: 20px;
+          margin: 10px;
+          min-height: 85vh;
+        }
+        
+        footer {
+          display: grid;
+          min-width: 30vw;
+        }
+        
+        .card {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          width: 10vw;
+          margin: 10%;
+          min-width: 200px;
+        }
+      }

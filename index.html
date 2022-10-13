@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Séries</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Séries</h1>
+    </header>
+    <main>
+        <div>
+            <input type="text" name="nomeSerie" id="searchBar" placeholder="Pesquise Aqui">
+            <button onclick="buscaShows()">Procure a série</button>
+        </div>
+        <section class="objeto" id="objeto">
+            <!-- <article class="card" id="veronica">
+                <div id="imagem"> <img src="./img/veronica.gif" alt="Verônica Mars piscando para a camera"></div>
+                <ul>
+                    <li><a href="https://veronicamars.fandom.com/wiki/Veronica_Mars" target="_blank">Veronica Mars</a></li>
+                    <li>Sinopse: Após a misteriosa morte da sua melhor amiga, Veronica Mars (Kristen Bell) apoiou incondicionalmente o seu pai, Keith (Enrico Colantoni), o xerife responsável pela investigação do caso. 
+                    Em pouco tempo, ela perdeu todos que sempre amou: seus amigos, sua mãe até mesmo o namorado, Duncan Kane (Teddy Dunn). Agora, Veronica trabalha em pequenos casos da Mars Investigations, enquanto busca o assassino de Lilly Kane (Amanda Seyfried) com a ajuda de um novo amigo,
+                    Wallace Fennel (Percy Daggs III). A jovem investigadora irá descobrir segredos da sua própria família e, aos poucos, se envolverá com Logan Echolls (Jason Dohring), o antigo namorado de Lilly.</li>
+                    <li>60min de episódio</li>
+                    <li>Tem dublado</li>
+                    <li>Você encontra em: HBO Max, Hulu, Prime Video</li>
+                 </ul>
+            </article>
+
+            <article class="card" id="MMFD">
+                <div id="imagem"><img src="./img/MMFD.gif" alt="Finn abraçando Ray"></div>
+                <ul>
+                    <li><a href="https://mmfd.fandom.com/wiki/My_Mad_Fat_Diary" target="_blank">My Mad Fat Diary</a></li>
+                    <li>Sinopse: Ambientada em Lincolnshire de 1996, a série conta a trágica porém bem-humorada história de uma adolescente cheia de problemas, chamada Rae (Shaaron Rooney). Ela acabou de sair do hospital psiquiátrico, onde passou quatro meses depois de uma tentativa de suicídio. Ela então retoma sua amizade com Chloe (Jodie Comer) e seu grupo de amigos, que desconhecem os problemas de Rae com sua própria imagem e acham que ela apenas passou o tempo na França.</li>
+                    <li>30min de eposódio</li>
+                    <li>Tem dublado</li>
+                    <li>Você encontra em: Hulu, Prime Video, Apple TV </li>
+                </ul>
+            </article>
+
+            <article class="card" id="office">
+                <div id="imagem"><img src="./img/theoffice.gif" alt="Michael Scott olhando para a tela"></div>
+                <ul>
+                    <li><a href="https://www.imdb.com/title/tt0386676/" target="_blank">The Office</a></li>
+                    <li>Sinopse: No formato de pseudodocumentário, a série retrata o cotidiano de um escritório em Scranton, na Pensilvânia, filial da empresa fictícia Dunder Mifflin, de suprimento de papel. Michael Scott (Steve Carell) é um patrão insensível mas que se preocupa com o bem estar de seus empregados, enquanto a série traça um olhar sobre todos eles, destacando suas diferenças e particularidades.</li>
+                    <li>30min de episódio</li>
+                    <li>Tem dublado</li>
+                    <li>Você encontra em: Prime Video, Paramount+, Oi Play, HBO Max</li>
+                </ul>
+            </article>
+
+            <article class="card" id="orphan">
+                <div id="imagem"> <img src="./img/orphanblack.gif" alt="Uma das personagens sendo sequestrada."></div>
+                <ul>
+                    <li><a href="https://orphanblack.fandom.com/wiki/Orphan_Black_Wiki" target="_blank">Orphan Black</a></li>
+                    <li>Sinopse: Depois de presenciar o suicídio de uma mulher (que é exatamente como ela) em uma estação de trem, Sarah Manning (Tatiana Maslany) faz o que qualquer um faria: assume a identidade da suicida para tentar resolver os próprios problemas financeiros. Mas logo ela descobre que está no centro de um mistério que vai mudar sua vida, quando se vê cara a cara com mais três mulheres idênticas a ela. Todas são clones, e precisam salvar as próprias peles enquanto tentam descobrir quem são os responsáveis pelos experimentos genéticos.</li>
+                    <li>60min de episódio</li>
+                    <li>Tem dublado</li>
+                    <li>Você encontra em: Paramount+, Prime Video</li>
+                </ul>
+            </article>
+
+            <article class="card" id="Lword">
+                <div id="imagem"><img src="./img/thelword.gif"></div>
+                <ul>
+                    <li><a href="https://www.sho.com/the-l-word" target="_blank">The L Word</a></li>
+                    <li>Sinopse: The L Word acompanha as vidas e os amores de um grupo de lésbicas que vivem em Los Angeles. Jenny (Mia Kirshner), é recém-formada pela Universidade de Chicago, e se muda para LA a fim de morar com seu namorado, Tim (Eric Mabius). A vida de Jenny dá uma reviravolta quando ela conhece as vizinhas Bette (Jennifer Beals) e Tina (Laurel Holloman), um casal que está prestes a dar o próximo passo e começar uma família, após estarem juntas há sete anos. Em uma festa, Jenny encontra Marina (Karina Lombard), a dona de uma cafeteria local, e de repente seu impulso a faz começar a questionar a própria sexualidade.</li>
+                    <li>60min de episódio</li>
+                    <li>Tem dublado</li>
+                    <li>Você encontra em: Showtime, Hulu</li>
+                </ul>
+            </article>
+
+            <article class="card" id="genQ">
+                <div id="imagem"><img src="./img/genq.gif"></div>
+                <ul>
+                    <li><a href="https://www.sho.com/the-l-word-generation-q" target="_blank">The L Word Gen Q</a></li>
+                    <li>Sinopse: Dez anos após os eventos de The L Word, as amigas Bette Porter (Jennifer Beals), Alice Pieszecki (Leisha Hailey) e Shane McCutcheon (Katherine Moennig) continuam vivendo em Los Angeles, onde ainda precisam lidar com corações partidos, obstáculos na carreira e novos amores.</li>
+                    <li>60min de episódio</li>
+                    <li>Tem dublado</li>
+                    <li>Você encontra em: Showtime, Hulu</li>
+                 </ul>
+            </article>
+
+            <article class="card" id="daria">
+                <div id="imagem"><img src="./img/daria1.gif"></div>
+                <ul>
+                    <li><a href="https://daria.fandom.com/wiki/Daria_Morgendorffer" target="_blank">Daria</a></li>
+                    <li>Sinopse: Daria Morgendorffer é uma inteligente, mal compreendida, nada popular e bastante sarcástica adolescente que tolera a vida rodeada dos seus colegas idiotas de Lawndale High. Com sua melhor amiga Jane, uma artista que é tão deslocada quanto ela, Daria lida com a popular irmã Quinn, e com os pais, Jake e Helen, que tentam mudar suas maneiras anti-sociais.</li>
+                    <li>30min de episódio</li>
+                    <li>Tem dublado</li>
+                    <li>Você encontra em: MTV, Paramount+, Youtube</li>
+                </ul>
+            </article> -->
+        </section>
+
+    </main>
+    <footer>
+        <p> Driely Mota</p>
+        <a href="https://github.com/drimota" target="_blank"> <p id="git"> Acesse meu GitHub </p></a>
+    </footer>
+
+
+</body>
